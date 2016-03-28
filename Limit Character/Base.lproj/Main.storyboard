@@ -54,6 +54,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="266" id="of9-wc-cpe"/>
                                 </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -140,6 +141,12 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="avatarImageView" destination="d6a-tU-VIg" id="DY1-vC-Fs9"/>
+                        <outlet property="bottomUIView" destination="Zm4-ys-bkp" id="SDV-ef-I8u"/>
+                        <outlet property="characterCountLabel" destination="GxH-OP-UXO" id="3PJ-BN-Dk9"/>
+                        <outlet property="tweetTextView" destination="r7b-Uw-9z8" id="hWc-Us-2Kg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
